@@ -1,0 +1,52 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #016db5;
+    margin: 0;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+nav a{
+    padding: 40px 10px;
+}
+nav a:hover{
+    padding: 40px 10px;
+    background: #016db5;
+    color: black;
+}
+header{
+    display: flex;
+    min-height: 20px;
+    background: rgba(0,0,0,0.8);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo_img{
+    height: 70px;
+    margin-right: 15px;
+}
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    nav a{
+        padding: 0px 10px;
+    }
+    nav a:hover{
+        padding: 0px 10px;
+        color: #016db5;
+        background: none;
+    }
+}
