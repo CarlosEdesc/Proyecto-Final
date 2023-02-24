@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
 </head>
 <body>
@@ -19,11 +19,31 @@
         </div>
         <nav>
             <a href="Index.html" class="nav-link">Inicio</a>
-            <a href="#" class="nav-link">Servicios</a>
+            <a href="Servicios.html" class="nav-link">Servicios</a>
             <a href="Contacto.html" class="nav-link">Contacto</a>
         </nav>
     </header>
-    <div>
+    <div id="slider">
+        <input type="radio" name="slider" id="s1" checked>
+        <input type="radio" name="slider" id="s2">
+        <input type="radio" name="slider" id="s3">
+        <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+        <label for="s1" id="slide1">
+            <img src="assets/render1.jpeg" alt="Render">
+        </label>
+        <label for="s2" id="slide2">
+            <img src="assets/render2.jpeg" alt="Render">
+        </label>
+        <label for="s3" id="slide3">
+            <img src="assets/render3.jpeg" alt="Render">
+        </label>
+        <label for="s4" id="slide4">
+            <img src="assets/render4.jpeg" alt="Render">
+        </label>
+        <label for="s5" id="slide5">
+            <img src="assets/render5.jpeg" alt="Render">
+        </label>
     </div>
 </body>
 </html>
